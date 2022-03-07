@@ -16,7 +16,7 @@
     $latestPosts = get_posts($args);
     ?>
 
-    <div class="grid gap-5 grid-flow-col mt-5">
+    <!-- <div class="grid gap-5 grid-flow-col mt-5">
         <?php foreach ($latestPosts as $post) : setup_postdata($post); ?>
             <a class="hover:text-orange-400" href="<?php the_permalink(); ?>">
                 <?php if (has_post_thumbnail()) : ?>
@@ -28,11 +28,11 @@
             </a>
         <?php endforeach;
         wp_reset_postdata(); ?>
-    </div>
+    </div> -->
 
-    <?php $blogPageUrl = get_post_type_archive_link('post'); ?>
+    <!-- <?php $blogPageUrl = get_post_type_archive_link('post'); ?>
 
-    <a class="hover:text-orange-400 hover:italic" href="<?= $blogPageUrl; ?>">See all posts</a>
+    <a class="hover:text-orange-400 hover:italic" href="<?= $blogPageUrl; ?>">See all posts</a> -->
 
 <?php endif; ?>
 

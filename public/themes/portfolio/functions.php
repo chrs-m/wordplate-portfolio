@@ -18,3 +18,4 @@ require get_template_directory() . '/post-types/project.php';
 require get_template_directory() . '/taxonomies/tool.php';
 require get_template_directory() . '/fields/project.php';
 require get_template_directory() . '/fields/options.php';
+require get_template_directory() . '/blocks/latest-posts.php';
