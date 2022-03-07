@@ -38,4 +38,4 @@
             <?php endforeach; ?>
         </div>
     </nav>
-    <div class="container prose mx-4 my-4 mx-auto">
+    <div class="container prose mx-auto">

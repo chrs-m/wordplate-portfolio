@@ -1,6 +1,6 @@
 </div>
 
-<footer class="not-prose flex flex-col fixed bottom-0 w-screen h-24 bg-black">
+<footer class="not-prose flex flex-col bottom-0 w-full h-24 bg-black">
     <p class="prose mx-auto my-auto text-white"><?php the_field('copywrite', 'option'); ?></p>
 
     <div class="contact-div flex flex-col mx-auto my-auto">
