@@ -16,3 +16,5 @@ require get_template_directory() . '/post-types/project.php';
 require get_template_directory() . '/taxonomies/tool.php';
 require get_template_directory() . '/fields/project.php';
 require get_template_directory() . '/fields/options.php';
+
+error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
