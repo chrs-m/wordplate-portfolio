@@ -38,4 +38,4 @@
             <?php endforeach; ?>
         </div>
     </nav>
-    <div class="container prose mx-auto">
+    <div class="container prose mx-auto flex-grow">
